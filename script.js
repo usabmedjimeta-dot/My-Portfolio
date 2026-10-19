@@ -7,7 +7,7 @@
 
 const CONFIG = {
   // ---- Your details ----
-  name: "Usman Abdulmumini",
+  name: "Usman",
   role: "Graphic Designer & Full-Stack Developer",
   tagline: "I design brands and build the websites they live on.",
   location: "Abuja, Nigeria",
@@ -15,10 +15,11 @@ const CONFIG = {
   // ---- Contact ----
   email: "usabmedjimeta@gmail.com",       // ✏️ the form opens an email to this address
   links: [
-    { label: "LinkedIn",  url: "https://linkedin.com/in/your-handle" },
-    { label: "GitHub",    url: "https://github.com/your-handle" },
-    { label: "Behance",   url: "https://behance.net/your-handle" },
-    { label: "Instagram", url: "https://instagram.com/your-handle" },
+    { label: "LinkedIn",  url: "https://www.linkedin.com/in/usman-abdulmumini-ahmed-728a503a3?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
+    { label: "GitHub",    url: "https://github.com/usabmedjimeta-dot" },
+    { label: "Facebook",   url: "https://www.facebook.com/share/14uK2BstTXY/?mibextid=wwXIfr" },
+    { label: "Instagram", url: "https://www.instagram.com/usabmedjimeta?mdxt=MWVtdzNtaTJnOWV4ZQ%3D%3D&utm_source=qr" },
+    { label: "Tiktok", url: "https://www.tiktok.com/@usabmed?_r=1&_t=ZS-9Agf8M6AHOY" },
   ],
 
   // ---- Skills (set learning: true for things you're still learning) ----
