@@ -168,6 +168,13 @@ ul { list-style: none; }
 .project-thumb {
   aspect-ratio: 16/10; position: relative; overflow: hidden;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    width: 355px;
+    height: 250;
+    background-image: url('assets/Images/project-2.jpeg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .project-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
 .project:hover .project-thumb img { transform: scale(1.06); }

@@ -54,10 +54,10 @@ const CONFIG = {
   // link: a live URL, a GitHub repo, or a Behance page ("" hides the link)
   projects: [
     {
-      title: "Brand Identity — Sample Co.",
+      title: "Flyers.",
       category: "design",
       description: "Logo, colour palette and brand guidelines for a small business.",
-      image: "assets/images/project-1.jpg",
+      image: "",
       link: "https://behance.net/your-handle",
       linkText: "View on Behance",
     },
@@ -65,14 +65,14 @@ const CONFIG = {
       title: "Poster Series",
       category: "design",
       description: "A set of event posters exploring bold type and colour.",
-      image: "assets/images/project-2.jpg",
+      img: "",
       link: "",
     },
     {
       title: "Landing Page",
       category: "code",
       description: "A responsive landing page built with HTML and CSS.",
-      image: "assets/images/project-3.jpg",
+      image: "",
       link: "https://github.com/your-handle/landing-page",
       linkText: "View code",
     },
@@ -80,7 +80,7 @@ const CONFIG = {
       title: "To-Do App",
       category: "code",
       description: "A small JavaScript app that saves tasks in the browser.",
-      image: "assets/images/project-4.jpg",
+      image: "",
       link: "https://github.com/your-handle/todo-app",
       linkText: "View code",
     },
@@ -115,7 +115,7 @@ CONFIG.skills.forEach((group) => {
 const projectGrid = document.getElementById("projectGrid");
 CONFIG.projects.forEach((p) => {
   const img = p.image
-    ? `<img src="${p.image}" alt="${p.title}" loading="lazy" onerror="this.remove()" />`
+    ? `<img src="assets/images/passport" alt="${p.title}" loading="lazy" onerror="this.remove()" />`
     : "";
   const link = p.link
     ? `<a class="project-link" href="${p.link}" target="_blank" rel="noopener">${p.linkText || "View project"} →</a>`
